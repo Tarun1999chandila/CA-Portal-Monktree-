@@ -1,4 +1,4 @@
-const route = require("express").Router;
+const route = require("express").Router();
 const Information = require("../../models/information");
 
 route.get("/", (req, res) => {
